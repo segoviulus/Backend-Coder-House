@@ -31,8 +31,8 @@ const usuario01 = new User("Ariel", "Segovia")
 
 usuario01.addMascotas("Matilde")
 usuario01.addMascotas("Teo")
-usuario01.addBook("Ami, el niño de las estrellas", "Todo Quino")
-usuario01.addBook("Asterix y Obelix", "Mafalda")
+usuario01.addBook("Mafalda", "Quino")
+usuario01.addBook("Asterix y Obelix", "Albert Uderzo")
 console.log(usuario01)
 console.log(usuario01.countMascotas());
 console.log(usuario01.getBookNames());
